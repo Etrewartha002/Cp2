@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Personal Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            #background-top{
+                background-image: url(./Images/Hero-Background.jpg) ;
+                height: 100vh;
+            }
+            .flexible{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            #Selfie{
+                height: 25vh;
+                width: 25vh;
+                border-radius: 50%;
+            }
+            .wad{
+                display: flex;
+                justify-content: center;
+                margin-top: 5rem;
+                margin-bottom: 5rem;
+            }
+            .margins{
+                margin-top: 5rem;
+                margin-bottom: 5rem;
+            }
+            .background-footer{
+                background-image: url(./Images/Hero-Background.jpg) ;
+                height: 25vh;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="background-top">
+            <div class="px-4 py-5 my-5 text-center">
+                <h1 class="display-5 fw-bold text-body-emphasis">Evan Trewartha</h1>
+                <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Programmer Extraordinaire</p>
+                <img class="d-block mx-auto mb-4" id="tree" src="Tree-Graphic.png" alt="" width="250" height="250">
+                </div>
+            </div>
+        </div>
+        <div class="flexible">
+            <img id="Selfie" src="Selfie.jpg" alt="A big dumb kid">
+            <h2>This is me</h2>
+        </div>
+        <h2 class="wad">Stuff you should know</h2>
+        <div class="container">
+            <div class="row">
+                <img class="col-1 col-sm-2" src="James-Egbert.png" alt="Nerdy Kid">
+                <div class="col-5 col-sm-10">
+                    <h3>I'm a bit of a nerd</h3>
+                    <p>
+                        This is a pretty accurate representation of me. The image is actually</br> pulled from a favorite webcomic of mine.
+                        I also like video games and coding. When I am reading a webcomic banging out</br> a cool program or playiing Elden Ring I am happy.
+                        I also like fantasy novels </br>(Kingkiller Chronicles, Game of Thrones, ect ect...)
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <img class="col-1 col-sm-2" src="Hiker.jpg" alt="Hiker on a hill">
+                <div class="col-5 col-sm-10">
+                    <h3>I also love hiking</h3>
+                    <p>
+                        For all my nerdiness I also love to hike and raft in Colorado. The feeling</br> of climbing a literal mountain is something really exhilirating
+                        and I love it. The same can be said about rafting and swimming in</br> it just conveys a feeling of power.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flexible margins">
+            <h2>Contact me at this email</h2>
+            <h3>evantrewartha@outlook.com</h3>
+            <h2>Click the link below to see my resume. (slightly outdated)</h2>
+            <a href="https://etrewartha002.github.io/ResumeProject/">Resume</a>
+        </div>
+        <div class="container background-footer">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Twitter</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Reddit</a></li>
+              </ul>
+              <p class="text-center text-body-secondary">© Evan Trewartha</p>
+            </footer>
+          </div>
+    </body>
+</html>
